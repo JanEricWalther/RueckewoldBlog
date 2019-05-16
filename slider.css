@@ -1,0 +1,71 @@
+/* Wrapper */
+.slider {
+  height: 100%;
+  min-height: 80vh;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* Slider Buttons */
+.slider-nav {
+  width: 3.2rem;
+  height: 0.8rem;
+  margin: 1rem 12px;
+  border-radius: 100%;
+  z-index: 10;
+  outline: .5rem solid #ccc;
+  outline-offset: -.5rem;
+  cursor: pointer;
+  appearance: none;
+  backface-visibility: hidden;
+}
+
+/* Slider Animation */
+.slider-nav:checked {
+  animation: check .4s linear forwards;
+}
+
+/* Choosing checked Slide */
+.slider-nav:checked:nth-of-type(1) ~ .slider-inner {
+  left: 0%;
+}
+
+.slider-nav:checked:nth-of-type(2) ~ .slider-inner {
+  left: -100%;
+}
+
+.slider-nav:checked:nth-of-type(3) ~ .slider-inner {
+  left: -200%;
+}
+
+/* width = n * 100% (for n Slides) */
+.slider-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 100%;
+  transition: left 0.4s;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.slider-contents {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-img {
+  width: 100%;
+}
