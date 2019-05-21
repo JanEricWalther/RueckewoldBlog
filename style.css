@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+:root {
+  --bg-primary: #eeeeee;
+  --text-primary: #000000;
+  --bg-secondary: #333333;
+  --bg-secondary-hover:#111111;
+  --text-secondary: #ffffff;
+}
+body {
+  background: var(--bg-primary);
+  font-family:verdana;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  padding: 1rem;
+  font-size: 55px;
+  color: var(--text-primary);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 a {
+  color: var(--text-primary);
+}
+
+/* HEADER */
+header {
+  border: 2px solid #000;
+}
+
+/* Navigation Bar */
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+}
+
+nav ul > li {
+  float: left;
+  display: block;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+nav ul > li a {
+  display: block;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 1rem;
+}
+
+nav ul > li a:hover {
+  background-color: var(--bg-secondary-hover);
+}
+
+/* Social media links in header */
+#socialmedia {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  }
+  
+/* Container with box shadow */
+#container {
+  width: 70%;
+  height: auto;
+  min-height: 100%;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* MAIN */
+main {
+  width: 100%;
+  height: 100%;
+  min-height: 80vh;
+}
+
+main p {
+  margin: 0.5rem;
+}
+
+main table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main table td, main > table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+main table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--bg-secondary);
+  height: 10vh;
+  width: 100%;
+}
+
+footer .left {
+  margin: 2rem;
+  float: left;
+  color: var(--text-secondary);
+}
+
+footer .right {
+  margin: 2rem;
+  float: right;
+  color: var(--text-secondary);
+}
+
+footer .right a {
+  color: var(--text-secondary);
+}
+
+footer .right a:hover {
+  color: var(--bg-secondary-hover);
+}
