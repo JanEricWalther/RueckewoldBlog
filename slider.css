@@ -69,3 +69,11 @@
 .slider-img {
   width: 100%;
 }
+
+/* MEDIA QUERIES */
+@media(max-width: 768px) {
+  .slider {
+    min-height: 50vh;
+    margin-top: 0;
+  }
+}

@@ -128,3 +128,28 @@ footer .right a {
 footer .right a:hover {
   color: var(--bg-secondary-hover);
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  #container {
+    width: 100%;
+    min-height: 0vh;
+  }
+
+  main {
+    min-height: 0vh;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  footer .right {
+    margin: 1rem 0.5rem;
+  }
+
+  footer .left {
+    margin: 1rem 0.5rem;
+  }
+}
