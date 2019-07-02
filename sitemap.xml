@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+>
+
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/index.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Fahrerprofil.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Equipment.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Team.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Galerie.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Rennberichte.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Downhill.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Video.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Kontakt.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://janericwalther.github.io/RueckewoldBlog/Impressum.html</loc>
+  <lastmod>2019-05-21T08:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+  <url>
+    <loc>https://janericwalther.github.io/RueckewoldBlog/index.html</loc>
+    <image:image>
+      <image:loc>https://janericwalther.github.io/RueckewoldBlog/index.html</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://ihrebeispielurl.de/foto.jpg</image:loc>
+    </image:image>
+  </url> 
+
+  <url>
+    <loc>https://janericwalther.github.io/RueckewoldBlog/Fahrerprofil.html</loc>
+    <image:image>
+      <image:loc>https://abload.de/img/fahrerprofilgujn0.jpg</image:loc>
+    </image:image>
+  </url> 
+
+  <url>
+    <loc>https://janericwalther.github.io/RueckewoldBlog/Equipment.html</loc>
+    <image:image>
+      <image:loc>https://abload.de/img/treksession7yjml.jpeg</image:loc>
+    </image:image>
+  </url> 
+
+<url>
+    <loc>https://janericwalther.github.io/RueckewoldBlog/Galerie.html</loc>
+    <image:image>
+      <image:loc>https://janericwalther.github.io/RueckewoldBlog/Galerie.html</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://abload.de/img/galerie3dzk7v.jpg</image:loc>
+    </image:image>
+     <image:image>
+      <image:loc>https://abload.de/img/galerie4n6juh.jpeg</image:loc>
+    </image:image>
+  </url> 
+
+
+
+</urlset>

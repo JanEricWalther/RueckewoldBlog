@@ -1,0 +1,7 @@
+# robots.txt zu https://janericwalther.github.io/RueckewoldBlog/
+
+User-agent: *
+Disallow: /Impressum.html
+Disallow: /Kontakt.html
+
+Sitemap: https://janericwalther.github.io/RueckewoldBlog/sitemap_index.xml
